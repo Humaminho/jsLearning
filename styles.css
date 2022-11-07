@@ -1,0 +1,27 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+@font-face {
+	font-family: myfont;
+	src: url(images/font/PoorStory-Regular.ttf);
+}
+th, td {
+	border: 1px solid darkgrey;
+	padding: 5px 10px;
+}
+table {
+	border-collapse: collapse;
+	height: 50vh;
+	width: 50vw;
+}
+h1 {
+	font-size: calc(1.2em + 3vw);
+	font-family: myfont, "sans serif";
+	letter-spacing: .5rem;
+	text-transform: uppercase;
+}
+p {
+	line-height: 1.2;
+	text-transform: capitalize;
+}
